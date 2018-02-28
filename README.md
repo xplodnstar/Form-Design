@@ -2,7 +2,6 @@
 - HTML
 - CSS Layout
 - Git Basics
-- CSS Animations
 
 ## Your Mission
 
@@ -20,7 +19,9 @@ We'll duplicate a sample form from an animated image: ![Responsive Form](form-rw
 **Goal 1.3**: Submit your Github URL below.
 
 ### Adventure Mode
-Make it responsive!
+- Make it responsive for multiple sizes using the chrome dev tools
+- Use CSS transitions to animate the highlighting of each field
+
 
 ## Requirements for Completion
 - A Github repository containing:
