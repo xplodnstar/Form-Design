@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <title>Save the Unicorns</title>
+  <link rel="icon" href="./Images/unicorn-icon.png">
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <form action="submit.html" target="_blank" method="get" autocomplete="off" class="row">
+    <div id="ident" class="column">
+     <div class="element">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="element">
+        <label for="color1">Primary Color </label>
+        <input type="color" id="color1" name="color1" value="#ff8ad8">
+      </div>
+      <div class="element">
+        <label for="color2">Secondary Color </label>
+        <input type="color" id="color2" name="color2" value="#9437ff">
+      </div>
+      <div class="element">
+        <label for="horn">Horn Type</label>
+        <select id="horn" name="horn">
+          <option value="spiral">Spiral</option>
+          <option value="smooth">Smooth</option>
+          <option value="angular">Angular</option>
+        </select>
+          <br>
+      </div>
+      <div class="element">
+        <label for="locale">Location</label>
+        <select id="locale" name="locale">
+          <option value="loth">Lothlorien</option>  
+          <option value="avalon">Avalon</option>  
+          <option value="asgard">Asgard</option>
+        </select> 
+      </div> 
+    </div><br>
+
+    <div id="tratits" class="column">
+      <div class="element"> 
+        <label>Magical Ability</label><br>
+        <div id="magic" >
+          <label for="invis">Invisibility</label><input type="checkbox" id="invis" name="invis" value="invis" class="cb"><br>
+          <label for="cchange">Color Changing</label><input type="checkbox" id="cchange" name="cchange" value="cchange" class="cb"><br>
+          <label for="glow">Glowing</label><input type="checkbox" id="glow" name="glow" value="glow" class="cb"><br>
+          <label for="poop">Rainbow Poop</label><input type="checkbox" id="poop" name="poop" value="poop" class="cb"><br>
+          <label for="heal">Healing</label><input type="checkbox" id="heal" name="heal" value="heal" class="cb"><br>
+          <label for="music">Music</label><input type="checkbox" id="music" name="music" value="music" class="cb"><br>
+        </div>
+      </div>
+      <div class="element">
+        <label for="personality">Personality Traits</label>
+        <textarea name="presonality" id="personality" cols="30" rows="5" placeholder="List the personality traits you observed."></textarea>
+      </div>
+      <div class="element">
+        <label>Did it have wings?</label>
+        <div id="wings">
+          <input type="radio" id="wingyes" name="wing" class="rd">Yes
+          <input type="radio" id="wingno" name="wing" class="rd" >No
+        </div>
+      </div>
+    </div><br>
+
+    <div id="user" class="column">
+      <div class="element">
+        <label for="date">Date Seen</label>
+        <input type="date" id="date" name="date">
+      </div> 
+      <div class="element">
+        <label>Did you come into contact with it?</label> 
+        <div id="touched">
+          <input type="radio" id="touchyes" name="touch" class="rd">Yes
+          <input type="radio" id="touchno" name="touch" class="rd">No
+        </div>
+      </div>
+      <div class="element">
+        <label for="email">Email address for our newsletter:</label>
+        <input type="email" id="email" name="email">
+      </div>  
+      <div class="element">
+        <label for="phone">Phone number for immediate sighting notifications:</label>
+        <input type="tel" name="phone" id="phone" placeholder="555-555-1212">
+      </div>
+    </div>
+    <div id="button">
+     <button>Tell Us!</button>        
+    </div>
+  </form>
+</body>
+</html>

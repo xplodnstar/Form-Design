@@ -1,0 +1,136 @@
+html {box-sizing: border-box}
+*,*::before,*::after{box-sizing: inherit}
+
+body {
+    background-image: url("./Images/unicorn-wallpaper.jpg");
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: "Verdana", "Tahoma", sans-serif;
+    font-size: 18px;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.column {
+    flex:33%;
+    padding: 15px;
+    min-width: 300px;
+}
+
+.element {
+    margin: 0px 0px 10px;
+}
+
+label {
+    margin: 10px 0px 10px;
+}
+
+input {
+    outline: none;
+    border-color: mediumpurple;
+    border-radius: 3px;
+    width: 100%;
+    margin: 10px 5px;
+    color: blueviolet;
+    font-size: 18px;
+    transition: background 0s;
+}
+
+input:focus {
+    background: rgb(240, 210, 255);
+}
+
+::placeholder {
+    color: mediumpurple;
+}
+
+.cb {
+    width: auto;
+    margin: 5px;
+}
+
+textarea {
+    outline: none;
+    border-color: mediumpurple;
+    border-radius: 3px;
+    width: 100%;
+    margin: 10px 5px;
+    color: blueviolet;
+    font-size: 18px;
+    transition: background 0s;
+}
+
+textarea:focus {
+    background: rgb(240, 210, 255);
+}
+
+select {
+    outline: none;
+    border-color: mediumpurple;
+    width: 100%;
+    margin: 10px 5px;
+    color: blueviolet;
+    font-size: 18px;
+    transition: background 0s;
+}
+
+select:focus {
+    background: rgb(240, 210, 255);
+}
+
+.rd {
+    width: auto;
+    margin: 5px;
+}
+
+button {
+    width: 150px;
+    margin: auto;
+    height: 50px;
+    border: 5px;
+    border-color: blueviolet;
+    background:blueviolet;
+    color:rgb(240, 210, 255);
+    border-radius: 3px;
+    font-size: 24px;
+    width: 100%;
+}
+
+#ident {
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+}
+
+#traits {
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+}
+
+#magic {
+    padding-left: 10px;
+}
+
+#user {
+    width:30%;
+    display:flex;
+    flex-direction: column;
+}
+
+#button {
+    display: flex;
+    width: 150px;
+    margin: auto;
+}
+
+#wink {
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
